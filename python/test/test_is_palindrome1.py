@@ -2,7 +2,7 @@ import unittest
 
 from src.is_palindrome1 import is_palindrome
 
-class TestTwoSum(unittest.TestCase):
+class TestIsPalindrome1(unittest.TestCase):
 
     def test_is_palindrome1(self):
         mockString = "A man, a plan, a canal: Panama"
