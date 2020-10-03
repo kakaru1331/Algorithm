@@ -1,10 +1,10 @@
 import unittest
 
-from src.is_palindrome3 import is_palindrome
+from src.is_palindrome.is_palindrome1 import is_palindrome
 
-class TestIsPalindrome3(unittest.TestCase):
+class TestIsPalindrome1(unittest.TestCase):
 
-    def test_is_palindrome3(self):
+    def test_is_palindrome1(self):
         mockString = "A man, a plan, a canal: Panama"
 
         actual = is_palindrome(self, mockString)

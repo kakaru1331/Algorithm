@@ -1,6 +1,6 @@
 import unittest
 
-from src.is_palindrome2 import is_palindrome
+from src.is_palindrome.is_palindrome2 import is_palindrome
 
 class TestIsPalindrome2(unittest.TestCase):
 

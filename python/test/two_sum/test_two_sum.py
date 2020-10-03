@@ -1,6 +1,6 @@
 import unittest
 
-from src.two_sum import two_sum
+from src.two_sum.two_sum import two_sum
 
 class TestTwoSum(unittest.TestCase):
 
