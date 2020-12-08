@@ -1,8 +1,9 @@
 /**
  * return the maximum number of differnet types of candies
  * @param candies
+ * @returns types of candies
  */
-function distributeCandies (candies: Array<number>) {
+function distributeCandies (candies: Array<number>): number {
   candies.sort()
 
   const portion = candies.length / 2
