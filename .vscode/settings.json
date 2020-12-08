@@ -1,5 +1,6 @@
 {
   "eslint.validate": ["typescript", "typescriptreact"],
+  "eslint.workingDirectories": ["./js"],
   "editor.codeActionsOnSave": [
     "source.fixAll.eslint"
   ]
