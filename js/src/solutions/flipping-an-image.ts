@@ -1,3 +1,10 @@
+/**
+ * flip the image horizontally
+ * then invert it,
+ * and return the resulting image.
+ * @param A matrix
+ * @returns resulting image
+ */
 function flipAndInvertImage (A: Array<Array<number>>): Array<Array<number>> {
   const row = A.length
   const col = A[0].length
