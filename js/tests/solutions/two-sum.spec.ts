@@ -1,4 +1,4 @@
-import { twoSum } from '@solutions/twoSum'
+import { twoSum } from '@solutions/two-sum'
 
 test('twoSum', () => {
   const nums = [2, 7, 11, 15]
