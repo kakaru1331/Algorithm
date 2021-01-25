@@ -10,9 +10,7 @@ jobs:
         
     steps:
     - uses: actions/checkout@master
-
-    - name: report test
-      uses: actions/setup-node@v1
+    - uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
         
@@ -20,6 +18,5 @@ jobs:
         cd js
         npm i
         npm run test
-
-    - name: upload report
+        
     - uses: codecov/codecov-action@v1
