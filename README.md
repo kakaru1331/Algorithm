@@ -9,3 +9,4 @@ Just for fun by solving problem. :)
 ## References
 - [LeetCode](https://leetcode.com/problemset/all/)
 - [HackerRank](https://www.hackerrank.com/)
+- [Cracking the Coding Interview: 189 Programming Questions and Solutions](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
